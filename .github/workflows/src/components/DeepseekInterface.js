@@ -73,7 +73,7 @@ const DeepseekInterface = () => {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${apiKey}`
+          'Authorization': `Bearer ${sk-4089d4250ea042b5be040cf912e59725}`
         },
         body: JSON.stringify({
           model: 'deepseek-chat',
